@@ -181,9 +181,11 @@ git clone https://github.com/lakshay-png/amazon-sales-data-analysis.git
 
 pip install -r requirements.txt
 
-
 ---
 
+## 12. Future Improvements
+
+```markdown
 ## 🔮 Future Improvements
 
 - Develop an interactive Power BI dashboard.
@@ -192,9 +194,10 @@ pip install -r requirements.txt
 - Perform customer lifetime value analysis.
 - Deploy the project as a web application.
 
+
 ## Author
 
-Lakshay Karwa
+**Lakshay Karwa**
 
 Aspiring Data Analyst passionate about Python, Data Analytics, SQL, and Business Intelligence.
 
