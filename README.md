@@ -127,14 +127,14 @@ Amazon processes thousands of orders across multiple categories and regions. The
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
+```text
 amazon-sales-data-analysis/
 │
 ├── data/
 │   ├── raw/
 │   │   └── Amazon Sale Report.csv
-│   │
 │   └── processed/
 │       └── cleaned_amazon_sales.csv
 │
@@ -154,16 +154,15 @@ amazon-sales-data-analysis/
 │   └── 13_business_recommendations.ipynb
 │
 ├── reports/
-│   ├── amazon_sales_analysis_report.md
-│   └── images/
+│   └── amazon_sales_analysis_report.md
 │
 ├── images/
+│   ├── dashboard.png
 │   ├── monthly_revenue.png
 │   ├── category_sales.png
 │   ├── state_sales.png
 │   ├── customer_segment.png
-│   ├── fulfillment.png
-│   └── dashboard.png
+│   └── fulfillment.png
 │
 ├── README.md
 ├── requirements.txt
@@ -178,27 +177,37 @@ amazon-sales-data-analysis/
 
 ```bash
 git clone https://github.com/lakshay-png/amazon-sales-data-analysis.git
+cd amazon-sales-data-analysis
 
 pip install -r requirements.txt
+```
+
+2. Open the project in VS Code or Google Colab.
+
+3. Run the notebooks in order from
+   `01_data_understanding.ipynb`
+   to
+   `13_business_recommendations.ipynb`.
 
 ---
 
-## 12. Future Improvements
-
-```markdown
-## 🔮 Future Improvements
+## 🌸 Future Improvements
 
 - Develop an interactive Power BI dashboard.
 - Build sales forecasting models.
 - Predict order cancellations using Machine Learning.
 - Perform customer lifetime value analysis.
 - Deploy the project as a web application.
+```
+---
 
-
-## Author
+## 👨‍💻 Author
 
 **Lakshay Karwa**
 
 Aspiring Data Analyst passionate about Python, Data Analytics, SQL, and Business Intelligence.
 
-Feel free to connect and explore the project.
+Feel free to connect and explore this project.
+
+```
+
