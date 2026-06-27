@@ -1,10 +1,103 @@
-# Amazon Sales Data Analysis
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![NumPy](https://img.shields.io/badge/NumPy-Computing-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 
-## Project Overview
+# 📊 Amazon Sales Data Analysis
 
-This project analyzes Amazon sales data to uncover trends in sales performance, customer behavior, product performance, fulfillment operations, and geographical demand.
+A complete end-to-end Data Analytics project that analyzes Amazon sales data to uncover business insights, customer behavior, product performance, fulfillment efficiency, and geographical sales trends using Python.
 
-The analysis was performed using Python and follows a complete data analytics workflow from data cleaning to business recommendations.
+## 📸 Executive Dashboard
+
+![Dashboard](images/dashboard.png)
+
+## 📌 Project Overview
+
+This project analyzes Amazon sales transactions to answer key business questions related to:
+
+- Sales Performance
+- Product Performance
+- Customer Segmentation
+- Fulfillment Analysis
+- Geographical Analysis
+- Time Series Trends
+- Business Recommendations
+
+The project follows the complete Data Analytics workflow from data cleaning to actionable business insights.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Development Environment | Google Colab, VS Code |
+| Version Control | Git & GitHub |
+
+---
+
+## 📂 Dataset Information
+
+| Attribute | Value |
+|-----------|-------|
+| Total Records | 128,976 |
+| Original Columns | 21 |
+| Cleaned Columns | 19 |
+| Missing Values | Cleaned |
+| Duplicate Records | Removed |
+
+---
+
+## 🔄 Project Workflow
+
+1. Data Understanding
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Sales Analysis
+5. Product Analysis
+6. Fulfillment Analysis
+7. Geographical Analysis
+8. Customer Segmentation
+9. Time Series Analysis
+10. KPI Dashboard
+11. Business Insights
+12. Strategic Recommendations
+
+---
+
+## 📈 Key Visualizations
+
+### Monthly Revenue Trend
+
+![Monthly Revenue](images/monthly_revenue.png)
+
+---
+
+### Revenue by Category
+
+![Category Sales](images/category_sales.png)
+
+---
+
+### Revenue by State
+
+![State Sales](images/state_sales.png)
+
+---
+
+### Customer Segmentation
+
+![Customer Segment](images/customer_segment.png)
+
+---
+
+### Fulfillment Distribution
+
+![Fulfillment](images/fulfillment.png)
 
 ---
 
@@ -14,36 +107,23 @@ Amazon processes thousands of orders across multiple categories and regions. The
 
 ---
 
-## Objectives
+## 💡 Key Business Insights
 
-- Sales Overview
-- Product Analysis
-- Fulfillment Analysis
-- Customer Segmentation
-- Geographical Analysis
-- Time Series Analysis
-- KPI Dashboard
-- Business Recommendations
+- T-shirt category generated the highest revenue.
+- Maharashtra contributed the highest sales.
+- B2C customers accounted for the majority of orders.
+- Approximately 14.2% of orders were cancelled.
+- Revenue peaked during April 2022.
 
 ---
 
-## Tech Stack
+## 🚀 Business Recommendations
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
-- Git & GitHub
-
----
-
-## Dataset
-
-- Total Records: 128,976
-- Original Columns: 21
-- Cleaned Columns: 19
+- Prioritize inventory for high-performing products.
+- Reduce order cancellations through process improvements.
+- Expand marketing in high-revenue regions.
+- Improve fulfillment efficiency.
+- Build customer retention strategies for B2C buyers.
 
 ---
 
@@ -92,30 +172,30 @@ amazon-sales-data-analysis/
 
 ---
 
-## Key Insights
+## ⚙️ How to Run
 
-1. T-shirt category generated the highest revenue and order volume.
+1. Clone the repository.
 
-2. Maharashtra emerged as the highest revenue-generating state.
+```bash
+git clone https://github.com/lakshay-png/amazon-sales-data-analysis.git
 
-3. Approximately 14% of orders were cancelled, representing a major optimization opportunity.
+pip install -r requirements.txt
 
-4. Revenue peaked in April 2022 before declining in later months.
-
-5. The business is primarily driven by B2C customers.
 
 ---
 
-## Business Recommendations
+## 🔮 Future Improvements
 
-"Focus on top-performing categories",
-"Maintain adequate stock for high-demand products",
-"Reduce cancellations through operational improvements",
-"Increase marketing in high-revenue states",
-"Improve delivery communication and tracking"
-
----
+- Develop an interactive Power BI dashboard.
+- Build sales forecasting models.
+- Predict order cancellations using Machine Learning.
+- Perform customer lifetime value analysis.
+- Deploy the project as a web application.
 
 ## Author
 
 Lakshay Karwa
+
+Aspiring Data Analyst passionate about Python, Data Analytics, SQL, and Business Intelligence.
+
+Feel free to connect and explore the project.
