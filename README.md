@@ -28,6 +28,12 @@ The project follows the complete Data Analytics workflow from data cleaning to a
 
 ---
 
+## Business Problem
+
+Amazon processes thousands of orders across multiple categories and regions. The objective of this project is to identify actionable business insights that can improve operational efficiency, customer satisfaction, and revenue.
+
+---
+
 ## 🛠️ Tech Stack
 
 | Category | Tools |
@@ -98,12 +104,6 @@ The project follows the complete Data Analytics workflow from data cleaning to a
 ### Fulfillment Distribution
 
 ![Fulfillment](images/fulfillment.png)
-
----
-
-## Business Problem
-
-Amazon processes thousands of orders across multiple categories and regions. The objective of this project is to identify actionable business insights that can improve operational efficiency, customer satisfaction, and revenue.
 
 ---
 
